@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-            // =======================================================
             // Part 1: Variable Declarations and Conditionals
-            // =======================================================
-
+           
             // Using const for a value that will not change.
             const fixedRate = 0.05;
 
@@ -20,10 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(`${username} is a minor. Special rules may apply.`);
             }
 
-            // =======================================================
             // Part 2: Custom Functions
-            // =======================================================
-
             /**
              * Calculates a future value based on an initial amount and an interest rate.
              * @param {number} principal - The initial amount of money.
@@ -50,9 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 messageParagraph.textContent = message;
             }
 
-            // =======================================================
             // Part 3: Loop Examples
-            // =======================================================
 
             const loopList = document.getElementById('loop-list');
 
@@ -82,14 +75,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            // =======================================================
             // Part 4: DOM Interactions (continued)
-            // =======================================================
-            
+           
             // Get the button element
             const actionButton = document.getElementById('action-button');
 
-            // Add a click event listener to the button.
+            // Adding a click event listener to the button.
             // When the button is clicked, it will call our functions.
             actionButton.addEventListener('click', () => {
                 updateMessage(); // Change the text on the page.

@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS and JavaScript</title>
+
+    <!--Linking HTML to the exteranal 'style css' file-->
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
+        <div class="container mx-auto bg-white rounded-xl shadow-lg p-6 sm:p-8 md:p-10 border border-gray-200">
+        <h1 class="text-3xl sm:text-4xl font-bold text-center mb-6 text-gray-800">JavaScript Powehouse Assignments</h1>
+        
+        <!-- Part 4: DOM Interactions - HTML Elements -->
+        <div id="content-area" class="text-center">
+            <p id="message-paragraph" class="text-lg text-gray-600 mb-4">
+                Click the button below to see some JavaScript magic!
+            </p>
+            <p class="font-semibold text-gray-700 mb-2">Check the console for loop outputs.</p>
+            <button id="action-button" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+                Run JavaScript
+            </button>
+            <div id="loop-output" class="mt-6 p-4 bg-gray-100 rounded-lg border border-gray-300 text-left">
+                <p class="font-bold">Loop Outputs:</p>
+                <ul id="loop-list" class="list-disc pl-5 mt-2 text-sm text-gray-700"></ul>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
