@@ -1,9 +1,13 @@
 body {
      font-family: 'Inter', sans-serif;
-     background-color: #506ba3;
+     background-color: #94a350;
     color: #1f2937;
     }
 
  .container {
     max-width: 800px;
     }
+
+#hh{
+    text-align: center;
+}
